@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Input from './Components/Input/Input'
+import Notes from './Components/Notes/Notes'
+import './App.css'
 export default function App() {
 
 
@@ -8,7 +9,7 @@ export default function App() {
 
   return (
     <div className='main-div'>
-      <Input />
+      <Notes />
     </div>
   )
 }
